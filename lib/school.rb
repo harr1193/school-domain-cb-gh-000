@@ -18,4 +18,5 @@ class School
 
   def sort
     @roster.sort.map { |e| [e[0], e[1].sort] }.to_h
+  end
 end
